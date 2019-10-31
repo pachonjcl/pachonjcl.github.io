@@ -2,7 +2,7 @@
 layout: post
 title:  "React Hooks Part 1"
 date:   2019-10-30 20:39:10 -0400
-categories: jekyll update
+categories: react
 ---
 Starting from React 16.8 Hooks has been added to allow use React features without
 writing classes. But, what does it means?
