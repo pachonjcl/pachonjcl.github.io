@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "Learn React Hooks",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "text": "Upgrade my components",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "text": "Add unit tests",
+      "completed": false
+    }
+  ]
+}
