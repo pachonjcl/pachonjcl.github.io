@@ -16,7 +16,7 @@ class Example extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      count = 0
+      count: 0
     };
   }
 
@@ -25,9 +25,9 @@ class Example extends React.Component {
     return (
       <div>
         <p>You clicked {count} times</p>
-        <Button onClick={() => this.setState({ count: count + 1 })}>
+        <button onClick={() => this.setState({ count: count + 1 })}>
           Click me
-        </Button>
+        </button>
       </div>
     );
   };
@@ -45,9 +45,9 @@ function Example() {
   return (
     <div>
       <p>You clicked {count} times</p>
-      <Button onClick={() => setCount(count + 1)}>
+      <button onClick={() => setCount(count + 1)}>
         Click me
-      </Button>
+      </button>
     </div>
   );
 }
