@@ -22,17 +22,14 @@ const LIVE_URL = "https://pachonjcl.github.io";
 const SCRIPT = process.env.npm_lifecycle_script || "";
 const isBuild = SCRIPT.includes("astro build");
 let BASE_URL = LOCALHOST_URL;
-let BASE = "";
 // When you're building your site in local or in CI, you could just set your URL manually
 if (isBuild) {
   BASE_URL = LIVE_URL;
-  BASE = "v2website";
 }
 
 export default defineConfig({
   server: { port: SERVER_PORT },
   site: BASE_URL,
-  base: BASE,
   integrations: [
     sitemap(),
     tailwind({
