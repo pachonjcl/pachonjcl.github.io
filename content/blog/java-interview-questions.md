@@ -52,10 +52,27 @@ date: 2025-12-07
 - aspect oriented programming
 - what is agile
 - Transactional
+- Difference between jpa spring data and hibernate
+- Static blocks of code
+- Lifecycle of a bean
+- Syncronize
+- Difference between a process and a thread
+- Dependency injection types in spring
+- In OOP what is composition aggregation and association
+- ResponseEntity 
+- Stream functional operators used
+- Static in inheritance 
+- OOP like encapsulation
+- Learn more design patterns
+- What does the start method does in a thread
+- Vector vs array vector
+- Generics
+- reflection
 
 Database
 
 - Trigger vs stored procedure: Demonstrate a deep and detailed understanding of the concepts and the differences between: triggers and stored procedures.
 - Experience with Databases such as SQL, MySQL, Oracle, Mongo, others.
+- DML vs DDL
 
 
